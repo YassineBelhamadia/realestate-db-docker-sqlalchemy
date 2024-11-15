@@ -9,7 +9,7 @@ user = {
     'user': os.getenv('user'),
     'password': os.getenv('password'),
     'host': os.getenv('host', 'localhost'),  # Default to 'localhost' if not set
-    'port': os.getenv('port', '5432'),  # Default to '5432' if not set
+    'port': os.getenv('port', '5432'),  # same for the port
     'db': os.getenv('db')
 }
 
@@ -17,6 +17,7 @@ user = {
 engine = init_engine(user)
 session = init_session(engine)
 
+# creating the tables
 Base.metadata.create_all(engine)
 # Check if the session is created successfully
 if session:

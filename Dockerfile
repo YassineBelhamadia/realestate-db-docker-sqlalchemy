@@ -1,15 +1,15 @@
-# Use the official Python image
+# official Python image
 FROM python:3.10-slim
 
-# Set the working directory in the container
+# the container's working dir
 WORKDIR /projetBrief3
 
-# Install system dependencies
+# sys dependencies
 RUN apt-get update && apt-get install -y --no-install-recommends \
     libpq-dev gcc && \
     apt-get clean && rm -rf /var/lib/apt/lists/*
 
-# Set environment variable to prevent Python buffering
+# prevent Python buffering
 ENV PYTHONUNBUFFERED=1
 
 # Copy requirements.txt and install dependencies
@@ -20,5 +20,5 @@ RUN pip install --no-cache-dir -r requirements.txt
 # Copy the application code
 COPY . .
 
-# Define the default command
+# the command to run the app
 CMD ["python", "app.py"]
