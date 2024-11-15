@@ -1,0 +1,11 @@
+title,price,datetime,nb_rooms,nb_baths,surface_area,link,city_name,equipement_names
+Appartement à vendre,500000,2024-11-01 10:00:00,3,2,75.0,https://www.example.com/annonce1,Paris,Ascenseur|Parking
+Studio meublé à louer,1500,2024-11-02 12:30:00,1,1,30.0,https://www.example.com/annonce2,Paris,Ascenseur|Terrasse
+Villa avec piscine,1500000,2024-11-03 15:45:00,5,3,300.0,https://www.example.com/annonce3,Lyon,Piscine|Cuisine équipée
+Maison de campagne,250000,2024-11-04 09:20:00,4,2,200.0,https://www.example.com/annonce4,Marseille,Parking|Terrasse
+Appartement en centre-ville,750000,2024-11-05 18:10:00,2,1,60.0,https://www.example.com/annonce5,Paris,Ascenseur|Cuisine équipée
+Penthouse avec vue,2500000,2024-11-06 14:50:00,4,3,120.0,https://www.example.com/annonce6,Lyon,Piscine|Terrasse
+Loft moderne,900000,2024-11-07 16:30:00,2,2,85.0,https://www.example.com/annonce7,Bordeaux,Parking
+Studio étudiant,800,2024-11-08 08:00:00,1,1,25.0,https://www.example.com/annonce8,Marseille,Cuisine équipée
+Chambre en colocation,500,2024-11-09 11:15:00,1,1,15.0,https://www.example.com/annonce9,Bordeaux,Ascenseur
+Maison familiale,350000,2024-11-10 17:25:00,5,2,220.0,https://www.example.com/annonce10,Lyon,Terrasse

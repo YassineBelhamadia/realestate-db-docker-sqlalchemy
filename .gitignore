@@ -1,0 +1,6 @@
+
+__pycache__
+# python's virtual environement
+.venv 
+# models 
+models/__pycache__
